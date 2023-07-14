@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heladeria.WebApi", "Heladeria.WebApi\Heladeria.WebApi.csproj", "{D6D07D1E-E4B4-4D4F-84A1-73A63AF00306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.WebApi", "1.WebApi", "{65739A5A-19A6-4702-813B-5B40A2CD530D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{B037C1BD-CF34-4AB1-90D0-EC32CF213443}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.DataAccess", "3.DataAccess", "{C40B58CF-FED1-4144-B520-6CFD857BCC13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Models", "4.Models", "{31BA4D53-9514-45DA-8E77-C58AB1F01745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heladeria.Services", "Heladeria.Services\Heladeria.Services.csproj", "{18B1227E-1A7F-4BF4-A392-28C8115BA146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heladeria.DataAccess", "Heladeria.DataAccess\Heladeria.DataAccess.csproj", "{46B3C395-465A-458C-8846-F265C88C0B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heladeria.Models", "Heladeria.Models\Heladeria.Models.csproj", "{7D92C652-0B8E-4EE1-A787-0A01716BBBA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6D07D1E-E4B4-4D4F-84A1-73A63AF00306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D07D1E-E4B4-4D4F-84A1-73A63AF00306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D07D1E-E4B4-4D4F-84A1-73A63AF00306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D07D1E-E4B4-4D4F-84A1-73A63AF00306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B1227E-1A7F-4BF4-A392-28C8115BA146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B1227E-1A7F-4BF4-A392-28C8115BA146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B1227E-1A7F-4BF4-A392-28C8115BA146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B1227E-1A7F-4BF4-A392-28C8115BA146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B3C395-465A-458C-8846-F265C88C0B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B3C395-465A-458C-8846-F265C88C0B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B3C395-465A-458C-8846-F265C88C0B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B3C395-465A-458C-8846-F265C88C0B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D92C652-0B8E-4EE1-A787-0A01716BBBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D92C652-0B8E-4EE1-A787-0A01716BBBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D92C652-0B8E-4EE1-A787-0A01716BBBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D92C652-0B8E-4EE1-A787-0A01716BBBA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6D07D1E-E4B4-4D4F-84A1-73A63AF00306} = {65739A5A-19A6-4702-813B-5B40A2CD530D}
+		{18B1227E-1A7F-4BF4-A392-28C8115BA146} = {B037C1BD-CF34-4AB1-90D0-EC32CF213443}
+		{46B3C395-465A-458C-8846-F265C88C0B14} = {C40B58CF-FED1-4144-B520-6CFD857BCC13}
+		{7D92C652-0B8E-4EE1-A787-0A01716BBBA1} = {31BA4D53-9514-45DA-8E77-C58AB1F01745}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CB7ED9B-9F43-4274-99C0-F51644FA1CBA}
+	EndGlobalSection
+EndGlobal
